@@ -8,3 +8,5 @@ def count_uniq_words(text):
     words = text.split(words)
     uniq_words = set(words)
     return len(uniq_words)
+
+# The and!

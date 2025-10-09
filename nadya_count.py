@@ -1,7 +1,8 @@
 # Функция подсчета слов
 def count_words(text):
     words = text.split()
-    return len(words)
+    word_cnt = len(words)
+    return word_cnt
 print(count_words)
 
 # Функция для подсчета уникальных слов

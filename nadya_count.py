@@ -12,3 +12,13 @@ def count_uniq_words(text):
 print(count_uniq_words)
 
 # The and!
+
+print('Rebase practice')
+
+def find_longest_word(text):
+    """Функция для поиска самого длинного слова"""
+    words = text.split()
+    if not words:
+        return ""
+    return max(words, key=len)
+

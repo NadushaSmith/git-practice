@@ -1,7 +1,7 @@
-# Функция подсчета слов
 def count_words(text):
     words = text.split()
-    return len(words)
+    word_count = len(words)
+    return word_count
 print(count_words)
 
 # Функция для подсчета уникальных слов
@@ -21,4 +21,3 @@ def find_longest_word(text):
     if not words:
         return ""
     return max(words, key=len)
-
